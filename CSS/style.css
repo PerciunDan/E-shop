@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .vh-section {
+    min-height: 75vh;
+  }
+}
+/* ---------------------------------- */
+/*                Width               */
+/* ---------------------------------- */
+
+@media (min-width: 576px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+/* ---------------------------------- */
+/*              Max Width             */
+/* ---------------------------------- */
+
+@media (min-width: 576px) {
+  .max-width {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .max-width {
+    max-width: 860px;
+  }
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.custom-img {
+  height: 200px; /* Setează o înălțime fixă */
+  object-fit: cover; /* Taie excesul pentru a păstra proporțiile */
+  width: 100%; /* Se asigură că ocupă lățimea completă */
+}
+
+.custom-img2 {
+  height: 702px; /* Setează o înălțime fixă */
+  object-fit: cover; /* Taie excesul pentru a păstra proporțiile */
+  width: 100%; /* Se asigură că ocupă lățimea completă */
+}
+
+.image-text {
+  position: absolute;
+  bottom: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+
+.border-none {
+  border: none;
+  border-radius: 0;
+}
+
+.img-height {
+  height: 460px;
+}
+
+.height-special {
+  height: 400px;
+  width: 250px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
