@@ -3,35 +3,8 @@
   padding: 0;
 }
 
-@media (min-width: 992px) {
-  .vh-section {
-    min-height: 75vh;
-  }
-}
-/* ---------------------------------- */
-/*                Width               */
-/* ---------------------------------- */
-
-@media (min-width: 576px) {
-  .w-md-50 {
-    width: 50%;
-  }
-}
-
-/* ---------------------------------- */
-/*              Max Width             */
-/* ---------------------------------- */
-
-@media (min-width: 576px) {
-  .max-width {
-    max-width: 90%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .max-width {
-    max-width: 860px;
-  }
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
